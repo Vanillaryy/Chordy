@@ -37,7 +37,7 @@ function showChord() {
 
 	const maxImages = 5;
 	for (let i = 1; i <= maxImages; i++) {
-		const imgSrc = `/Chordy/img/chords/${chordFileBase}${i}.png`;
+		const imgSrc = `Chordy/img/chords/${chordFileBase}${i}.png`;
 		const img = new Image();
 		img.src = imgSrc;
 		img.onload = function () {
@@ -46,3 +46,4 @@ function showChord() {
 	}
 
 }
+
